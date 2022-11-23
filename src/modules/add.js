@@ -17,4 +17,4 @@ const Addnew = () => {
 
 btn.addEventListener('click', Addnew);
 
-export default { Addnew };
+export default Addnew;

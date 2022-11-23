@@ -1,7 +1,10 @@
 
 <div align="center">
 
+  <img src="https://raw.githubusercontent.com/microverseinc/readme-template/master/murple_logo.png" alt="logo" width="140"  height="auto" />
 </div>
+  <br/>
+  <br/>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -79,6 +82,16 @@ Install this project with:
 ```sh
    npm install
 ```
+
+### Run tests
+
+To run tests, First create a directory, initialize npm, install webpack locally and then follow the steps:
+
+   - [Basic Setup](https://webpack.js.org/guides/getting-started/#basic-setup)
+   - [Setting up HtmlWebpackPlugin](https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin)
+   - [Loading CSS](https://webpack.js.org/guides/asset-management/#loading-css)
+   - [Using webpack-dev-server](https://webpack.js.org/guides/development/#using-webpack-dev-server)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
