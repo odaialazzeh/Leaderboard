@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>Leaderboard</title>
 </head>
 <body>
@@ -13,13 +12,12 @@
         <div class="scores">
             <div class="title">
                 <h2>Recent scores</h2>
-                <button type="button">Refresh</button>
+                <button type="button" id="refresh">Refresh</button>
             </div>
             <div class="results">
 
             </div>
         </div>
-
         <div class="form">
             <h2>Add your scoore</h2>
             <input type="text" placeholder="Your name" id="name" required>
@@ -27,6 +25,9 @@
             <button type="button" id="scoreBtn">Submit</button>
         </div>
     </div>
-    <script type="module" src="./index.js" ></script>
+    <table class="table table-bordered">
+        <tbody id="data">
+        </tbody>
+     </table>   
 </body>
 </html>
