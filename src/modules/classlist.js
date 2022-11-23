@@ -10,8 +10,8 @@ export default class ScoresList {
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
       },
-    })
-      .then((response) => response.json())
-      .catch((error) => error('Error:', error));
+    });
+    await ((response) => response.json());
+    await ((error) => error('Error:', error));
   }
 }
