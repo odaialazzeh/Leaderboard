@@ -38,6 +38,7 @@ h1 {
   box-shadow: 2px 2px 2px black;
   padding: 0.2em 0.7em;
   font-family: 'Poppins', sans-serif;
+  cursor: pointer;
 }
 
 .title h2 {
