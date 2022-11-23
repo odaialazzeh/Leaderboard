@@ -1,7 +1,10 @@
 
 <div align="center">
 
+  <img src="https://raw.githubusercontent.com/microverseinc/readme-template/master/murple_logo.png" alt="logo" width="140"  height="auto" />
 </div>
+  <br/>
+  <br/>
 
 <!-- TABLE OF CONTENTS -->
 
